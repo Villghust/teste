@@ -1,6 +1,6 @@
 package com.teste.facade;
 
-import com.teste.mapper.ClienteModelMapper;
+import com.teste.mappers.ClienteModelMapper;
 import com.teste.model.ClienteModel;
 import com.teste.service.ClienteService;
 import lombok.AllArgsConstructor;

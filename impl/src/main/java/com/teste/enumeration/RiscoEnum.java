@@ -2,6 +2,7 @@ package com.teste.enumeration;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
 @AllArgsConstructor
@@ -15,6 +16,9 @@ public enum RiscoEnum {
     private double taxa;
 
     public static RiscoEnum fromValue(String tipo) {
+
+        if(tipo == null) return null;
+
         switch(tipo) {
             case "B":
                 return TIPO_B;

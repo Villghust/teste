@@ -1,4 +1,4 @@
-package com.teste.mapper;
+package com.teste.mappers;
 
 import com.teste.database.model.Cliente;
 import com.teste.enumeration.RiscoEnum;

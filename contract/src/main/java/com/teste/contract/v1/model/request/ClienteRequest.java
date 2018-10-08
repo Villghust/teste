@@ -17,7 +17,7 @@ public class ClienteRequest {
     @NotNull(message = "É necessário informar o nome!")
     private String nome;
     @NotNull(message = "É necessário informar o limite de crédito!")
-    private double limiteCredito;
+    private Double limiteCredito;
     @NotNull(message = "É necessário informar o risco!")
     private String risco;
 }

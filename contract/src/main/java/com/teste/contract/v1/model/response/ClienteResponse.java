@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 public class ClienteResponse {
     private String id;
     private String nome;
-    private double limiteCredito;
+    private Double limiteCredito;
     private String risco;
 }

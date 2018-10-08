@@ -13,6 +13,6 @@ import lombok.NoArgsConstructor;
 public class ClienteModel {
     private String id;
     private String nome;
-    private double limiteCredito;
+    private Double limiteCredito;
     private RiscoEnum risco;
 }

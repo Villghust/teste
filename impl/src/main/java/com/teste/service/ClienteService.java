@@ -2,7 +2,7 @@ package com.teste.service;
 
 import com.teste.database.model.Cliente;
 import com.teste.database.repository.ClienteRepository;
-import com.teste.mapper.ClienteModelMapper;
+import com.teste.mappers.ClienteModelMapper;
 import com.teste.model.ClienteModel;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
